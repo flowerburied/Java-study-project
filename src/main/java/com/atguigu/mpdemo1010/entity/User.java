@@ -33,4 +33,9 @@ public class User {
     @TableField(fill = FieldFill.INSERT) //添加
     private Integer version; //版本号
 
+
+    @TableLogic //逻辑删除
+    private Integer deleted;
+
+
 }
